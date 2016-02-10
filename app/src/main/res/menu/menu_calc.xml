@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Tipo"
+        android:id="@+id/tipo"
+        android:icon="@drawable/ic_warning_black_24dp"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/toast"
+                    android:title="Toast"
+                    app:showAsAction="never"/>
+                <item android:title="Snackbar"
+                    android:id="@+id/snackbar"
+                    app:showAsAction="never"/>
+                <item android:title="Notificacion"
+                    android:id="@+id/notificacion"
+                    app:showAsAction="never"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/internet"
+        android:icon="@drawable/ic_wifi_black_24dp"
+        android:title="Nav"
+        app:showAsAction="ifRoom"></item>
+    <item android:title="Call"
+        android:icon="@drawable/ic_call_black_24dp"
+        android:id="@+id/call"
+        app:showAsAction="ifRoom"></item>
+</menu>

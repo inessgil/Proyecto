@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_games"
+            android:id="@+id/memory"
+            android:title="Memory" />
+        <item
+            android:icon="@drawable/ic_apps_black_36dp"
+            android:id="@+id/calc"
+            android:title="Calculadora" />
+        <item
+            android:icon="@drawable/ic_person"
+            android:id="@+id/perfil"
+            android:title="Perfil" />
+        <item
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:id="@+id/ranking"
+            android:title="Ranking" />
+        <item
+            android:icon="@drawable/ic_audiotrack_black_24dp"
+            android:id="@+id/player"
+            android:title="Media Player" />
+        <item
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:id="@+id/logout"
+            android:title="Log Out" />
+    </group>
+</menu>

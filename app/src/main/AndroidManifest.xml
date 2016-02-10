@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ines.santos.proyecto">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/space_invader"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Player"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".LogIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Calc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Perfil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Direccion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Memory"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ranking"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+    </application>
+
+</manifest>
